@@ -1,8 +1,8 @@
 version: 1.0.{build}
 stack: node 10 # окружение
 branches:
-only:
-  - master # ветка git
+  only:
+    - master # ветка git
 cache: node_modules # кеширование
 install:
   - npm install # команда установки зависимостей
