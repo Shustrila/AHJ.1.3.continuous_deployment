@@ -1,4 +1,3 @@
-version: 1.0.{build}
 stack: node 10 # окружение
 branches:
   only:
