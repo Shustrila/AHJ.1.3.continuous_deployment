@@ -4,7 +4,7 @@ branches:
     - master # ветка git
 cache: node_modules # кеширование
 install:
-  - npm install # команда установки зависимостей
+  - yarn install # команда установки зависимостей
 build: off
 build_script:
   - yarn run build # команда сборки
